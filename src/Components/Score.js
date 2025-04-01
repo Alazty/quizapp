@@ -8,8 +8,9 @@ class Score extends Component {
         const { score, onNextQuestion } = this.props;
 
         return (
-            <div>
-                <h2>Results</h2>
+            <div className='score-container'>
+                <h1 className='score-title'>Quiz Completed!</h1>
+                <h2>Results:</h2>
                 <h4>Your score: {score}</h4>
             </div>
         );

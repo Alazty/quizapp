@@ -1,11 +1,62 @@
 /* App.css */
 
 body {
-  background-color: #292b2e;
+  background-color: #3e5880;
   color: #ffffff;
 }
 
 .app-title {
   color: #ffffff;
   margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: rgb(131, 137, 172);
+  width: 70%;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.quiz-container {
+  background-color: #283b57; 
+  border-radius: 10px;
+  padding: 2rem;
+  width: 70%;
+}
+
+.quiz-container h3 {
+  /* background-color: rgb(131, 137, 172); */
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #ffffff;
+}
+
+.form-check {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form-check input {
+  cursor: pointer;
+}
+
+.score-container {
+  background-color: #283b57; 
+  border-radius: 10px;
+  padding: 2rem;
+  width: 70%;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #ffffff;
+  /* border: 1px solid #ffffff; */
+}
+
+.score-container h2 {
+  text-align: left;
+}
+
+.score-container h4 {
+  text-align: left;
 }
