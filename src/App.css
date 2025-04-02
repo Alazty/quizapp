@@ -40,6 +40,9 @@ body {
 .form-check input {
   cursor: pointer;
 }
+.form-check label {
+  cursor: pointer;
+}
 
 .score-container {
   background-color: #283b57; 

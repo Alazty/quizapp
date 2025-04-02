@@ -10,6 +10,7 @@ class Options extends Component {
             <div className='options'>
                 {options.map((option, index) => (
                     <div key={index} className="form-check">
+                        <label className="form-check-label">{option}
                         <input
                             type="radio"
                             name="option"
@@ -18,7 +19,7 @@ class Options extends Component {
                             onChange={onOptionChange}
                             className="form-check-input"
                         />
-                        <label className="form-check-label">{option}</label>
+                        </label>
                     </div>
                 ))}
             </div>

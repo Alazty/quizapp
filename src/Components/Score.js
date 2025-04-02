@@ -2,6 +2,7 @@
 
 import React, { Component } from 'react';
 import '../App.css'
+import qBank from './QuestionBank';
 
 class Score extends Component {
     render() {
