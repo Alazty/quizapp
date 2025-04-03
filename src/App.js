@@ -15,6 +15,7 @@ class App extends Component {
             currentQuestion: 0,
             selectedOption: "",
             score: 0,
+            results: [],
             quizEnd: false,
         };
     }
@@ -33,6 +34,9 @@ class App extends Component {
         const { questionBank, currentQuestion, selectedOption, score } = this.state;
         if (selectedOption === questionBank[currentQuestion].answer) {
             this.setState((prevState) => ({ score: prevState.score + 1 }));
+        //     this.setState((prevState) => ({ results: prevState.results.push(true)}));
+        // }else {
+        //     this.setState((prevState) => ({ results: prevState.results.push(false)}));
         }
     };
 
